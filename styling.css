@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background-color: #f3f3f3;
+}
+nav ul {
+    list-style-type: none;
+    background-color: #1f4e5f;
+    height: 60px;
+    text-align: center;
+    padding-right: 0;
+    margin: 0;
+}
+nav a {
+    text-decoration: none;
+    line-height: 60px;
+    margin:20px;
+    font-size: 30px;
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: border-bottom 0.25s ease, color 0.25s ease;
+}
+nav a:hover {
+    padding-bottom: 2px;
+    color: #ffce80;
+}
+nav a.active {
+    /* Remember to set the active page to class:"active" in nav */
+    padding-bottom: 2px;
+    color: #f5a623;
+    border-bottom: 2px solid #f5a623;
+}
+nav li {
+    display: inline;
+}
+.box {
+    max-width: 1200px;
+    margin: 30px auto;
+    border: 2px solid #1f4e5f;
+    background-color: #ffffff;
+    padding: 50px 40px;
+    border-radius: 10px;
+}
