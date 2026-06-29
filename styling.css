@@ -34,16 +34,17 @@ nav li {
     display: inline;
 }
 .box {
-    max-width: 80%;
+    max-width: 75%;
+    max-height: 75%;
     margin: 30px auto;
     border: 2px solid #1f4e5f;
-    background-color: #ffffff;
+    background-color: #67f0ff;
     padding: 50px 40px;
     border-radius: 10px;
 }
 
 .cardRow{
-    width:80%;
+    width:72.5%;
     height:550px;
     margin:auto;
     border: 2px solid;
@@ -61,7 +62,7 @@ img{
 
 .card{
     height:72%;
-    width:350px;
+    width:70%;
     border:2px solid #1f4e5f;
     background-color: antiquewhite;
     border-radius:8px;
